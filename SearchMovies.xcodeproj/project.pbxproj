@@ -108,8 +108,7 @@
 				11BF3BBF256F8D6B002CCE99 /* AppDelegate.m */,
 				11BF3BC1256F8D6B002CCE99 /* SceneDelegate.h */,
 				11BF3BC2256F8D6B002CCE99 /* SceneDelegate.m */,
-				11BF3BC4256F8D6B002CCE99 /* ViewController.h */,
-				11BF3BC5256F8D6B002CCE99 /* ViewController.m */,
+				11BF3BF9256F8DA3002CCE99 /* Controller */,
 				11BF3BC7256F8D6B002CCE99 /* Main.storyboard */,
 				11BF3BCA256F8D6F002CCE99 /* Assets.xcassets */,
 				11BF3BCC256F8D6F002CCE99 /* LaunchScreen.storyboard */,
@@ -135,6 +134,15 @@
 				11BF3BE7256F8D6F002CCE99 /* Info.plist */,
 			);
 			path = SearchMoviesUITests;
+			sourceTree = "<group>";
+		};
+		11BF3BF9256F8DA3002CCE99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11BF3BC4256F8D6B002CCE99 /* ViewController.h */,
+				11BF3BC5256F8D6B002CCE99 /* ViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,11 +451,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SearchMovies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.SearchMovies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SearchMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,11 +469,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SearchMovies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.com.SearchMovies;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SearchMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
